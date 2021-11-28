@@ -7,10 +7,10 @@ use Illuminate\Support\Collection;
 return function (Dispatcher $events, Filter $filter) {
     $events->listen(
         'SocialiteProviders\Manager\SocialiteWasCalled',
-        'LittleSkinChina\BsSocialiteProviderLittleSkin\LittleSkinExtendSocialite@handle'
+        'CakeSkinChina\BsSocialiteProviderCakeSkin\CakeSkinExtendSocialite@handle'
     );
 
-    config(['services.littleskin' => [
+    config(['services.cakeskin' => [
         'client_id' => env('CAKESKIN_KEY'),
         'client_secret' => env('CAKESKIN_SECRET'),
         'redirect' => env('CAKESKIN_REDIRECT_URI'),

@@ -14,5 +14,5 @@
 ```
 CAKESKIN_KEY=1
 CAKESKIN_SECRET=khGoXUMPZvhT8qNQi3PECK8BDokyfNne
-CAKESKIN_REDIRECT_URI=https://skin.bs-community.dev/auth/login/littleskin/callback
+CAKESKIN_REDIRECT_URI=https://skin.bs-community.dev/auth/login/cakeskin/callback
 ```
