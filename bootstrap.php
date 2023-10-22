@@ -7,7 +7,7 @@ use Illuminate\Support\Collection;
 return function (Dispatcher $events, Filter $filter) {
     $events->listen(
         'SocialiteProviders\Manager\SocialiteWasCalled',
-        'CakeSkinChina\BsSocialiteProviderCakeSkin\CakeSkinExtendSocialite@handle'
+        'CakeSkin\BsSocialiteProviderCakeSkin\CakeSkinExtendSocialite@handle'
     );
 
     config(['services.cakeskin' => [
@@ -18,7 +18,7 @@ return function (Dispatcher $events, Filter $filter) {
 
     $filter->add('oauth_providers', function (Collection $providers) {
         $providers->put('cakeskin', [
-            'icon' => 'cakeskin',
+            'icon' => 'littleskin',
             'displayName' => 'CakeSkin',
         ]);
 

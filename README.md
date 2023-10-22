@@ -1,6 +1,8 @@
 # 使用 CakeSkin 登录
 当您想使用 CakeSkin 登录皮肤站时，可以使用本插件能让现有用户进行这样的操作。
 
+本插件基于 [`oauth-littleskin`](https://github.com/bs-community/blessing-skin-plugins/tree/master/plugins/oauth-littleskin) 插件修改。
+
 ## 使用方法
 
 本插件没有配置页面，所有配置通过修改 `.env` 来进行。
@@ -14,5 +16,5 @@
 ```
 CAKESKIN_KEY=1
 CAKESKIN_SECRET=khGoXUMPZvhT8qNQi3PECK8BDokyfNne
-CAKESKIN_REDIRECT_URI=https://skin.bs-community.dev/auth/login/cakeskin/callback
+CAKESKIN_REDIRECT_URI=https://skin.bs-community.dev/auth/login/littleskin/callback
 ```

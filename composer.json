@@ -1,0 +1,14 @@
+{
+    "name": "cake-mc/oauth-cakeskin",
+    "description": "",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "XieXiLin",
+        "email": "support@xiexilin.com"
+    }],
+    "require": {
+        "cake-mc/bs-socialite-provider-cakeskin": "dev-main",
+        "psr/log": "^1"
+    }
+}
